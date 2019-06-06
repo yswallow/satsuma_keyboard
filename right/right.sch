@@ -364,7 +364,7 @@ F 1 "SW_Push" H 5500 2194 50  0000 C CNN
 F 2 "MX_Socket:MXOnly-1U-Hotswap" H 5500 2200 50  0001 C CNN
 F 3 "~" H 5500 2200 50  0001 C CNN
 	1    5500 2000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR016
@@ -540,7 +540,7 @@ F 1 "SW_Push" H 5500 3194 50  0000 C CNN
 F 2 "MX_Socket:MXOnly-1U-Hotswap" H 5500 3200 50  0001 C CNN
 F 3 "~" H 5500 3200 50  0001 C CNN
 	1    5500 3000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR024
@@ -672,7 +672,7 @@ F 1 "SW_Push" H 4800 4194 50  0000 C CNN
 F 2 "MX_Socket:MXOnly-1U-Hotswap" H 4800 4200 50  0001 C CNN
 F 3 "~" H 4800 4200 50  0001 C CNN
 	1    4800 4000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR030
@@ -694,7 +694,7 @@ F 1 "SW_Push" H 5500 4194 50  0000 C CNN
 F 2 "MX_Socket:MXOnly-1.75U-Hotswap" H 5500 4200 50  0001 C CNN
 F 3 "~" H 5500 4200 50  0001 C CNN
 	1    5500 4000
-	1    0    0    -1  
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR031
@@ -705,28 +705,6 @@ F 1 "GND" H 5705 4227 50  0000 C CNN
 F 2 "" H 5700 4400 50  0001 C CNN
 F 3 "" H 5700 4400 50  0001 C CNN
 	1    5700 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW32
-U 1 1 5CF5C6F4
-P 1200 5000
-F 0 "SW32" H 1200 5285 50  0000 C CNN
-F 1 "SW_Push" H 1200 5194 50  0000 C CNN
-F 2 "MX_Socket:MXOnly-1U-Hotswap" H 1200 5200 50  0001 C CNN
-F 3 "~" H 1200 5200 50  0001 C CNN
-	1    1200 5000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR032
-U 1 1 5CF5C6FA
-P 1400 5450
-F 0 "#PWR032" H 1400 5200 50  0001 C CNN
-F 1 "GND" H 1405 5277 50  0000 C CNN
-F 2 "" H 1400 5450 50  0001 C CNN
-F 3 "" H 1400 5450 50  0001 C CNN
-	1    1400 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -757,7 +735,7 @@ U 1 1 5CF5C70C
 P 2650 5000
 F 0 "SW34" H 2650 5285 50  0000 C CNN
 F 1 "SW_Push" H 2650 5194 50  0000 C CNN
-F 2 "MX_Socket:MXOnly-1U-Hotswap" H 2650 5200 50  0001 C CNN
+F 2 "MX_Socket:MXOnly-1.25U-Hotswap" H 2650 5200 50  0001 C CNN
 F 3 "~" H 2650 5200 50  0001 C CNN
 	1    2650 5000
 	1    0    0    -1  
@@ -823,7 +801,7 @@ U 1 1 5CF5C730
 P 4800 5000
 F 0 "SW37" H 4800 5285 50  0000 C CNN
 F 1 "SW_Push" H 4800 5194 50  0000 C CNN
-F 2 "MX_Socket:MXOnly-1.25U-Hotswap" H 4800 5200 50  0001 C CNN
+F 2 "MX_Socket:MXOnly-1U-Hotswap" H 4800 5200 50  0001 C CNN
 F 3 "~" H 4800 5200 50  0001 C CNN
 	1    4800 5000
 	1    0    0    -1  
@@ -923,8 +901,6 @@ Text GLabel 4600 4000 0    50   Output ~ 0
 SW30
 Text GLabel 5300 4000 0    50   Output ~ 0
 SW31
-Text GLabel 1000 5000 0    50   Output ~ 0
-SW32
 Text GLabel 1750 5000 0    50   Output ~ 0
 SW33
 Text GLabel 2450 5000 0    50   Output ~ 0
@@ -937,35 +913,35 @@ Text GLabel 4600 5000 0    50   Output ~ 0
 SW37
 Text GLabel 5300 5000 0    50   Output ~ 0
 SW38
-Text GLabel 8300 1250 0    50   Input ~ 0
-SW1
-Text GLabel 9700 1450 2    50   Input ~ 0
-SW2
-Text GLabel 9700 1350 2    50   Input ~ 0
-SW3
-Text GLabel 9700 1250 2    50   Input ~ 0
-SW4
-Text GLabel 9700 1150 2    50   Input ~ 0
-SW5
-Text GLabel 9700 1850 2    50   Input ~ 0
-SW6
-Text GLabel 8300 1350 0    50   Input ~ 0
-SW7
 Text GLabel 9700 1550 2    50   Input ~ 0
-SW8
-Text GLabel 8300 1750 0    50   Input ~ 0
-SW10
-Text GLabel 8300 1550 0    50   Input ~ 0
-SW11
-Text GLabel 9700 1750 2    50   Input ~ 0
-SW12
+SW1
 Text GLabel 8300 1450 0    50   Input ~ 0
+SW2
+Text GLabel 9700 1450 2    50   Input ~ 0
+SW3
+Text GLabel 8300 1350 0    50   Input ~ 0
+SW4
+Text GLabel 9700 1350 2    50   Input ~ 0
+SW5
+Text GLabel 8300 1250 0    50   Input ~ 0
+SW6
+Text GLabel 9700 1250 2    50   Input ~ 0
+SW7
+Text GLabel 8300 1150 0    50   Input ~ 0
+SW8
+Text GLabel 8300 1850 0    50   Input ~ 0
+SW10
+Text GLabel 9700 1850 2    50   Input ~ 0
+SW11
+Text GLabel 8300 1750 0    50   Input ~ 0
+SW12
+Text GLabel 9700 1750 2    50   Input ~ 0
 SW13
-Text GLabel 9700 1650 2    50   Input ~ 0
-SW14
-Text GLabel 12400 2800 2    50   Input ~ 0
-SW15
 Text GLabel 8300 1650 0    50   Input ~ 0
+SW14
+Text GLabel 9700 1650 2    50   Input ~ 0
+SW15
+Text GLabel 8300 1550 0    50   Input ~ 0
 SW16
 Text GLabel 8300 2400 0    50   Input ~ 0
 SCK
@@ -988,50 +964,38 @@ NoConn ~ 12400 4050
 NoConn ~ 9750 5250
 NoConn ~ 9750 5350
 NoConn ~ 9750 5550
-Text GLabel 11000 2800 0    50   Input ~ 0
+Text GLabel 12400 2800 2    50   Input ~ 0
 SW17
-Text GLabel 9750 4500 2    50   Input ~ 0
+Text GLabel 9750 4300 2    50   Input ~ 0
 SW18
-Text GLabel 8350 4400 0    50   Input ~ 0
+Text GLabel 12400 3100 2    50   Input ~ 0
 SW19
-Text GLabel 9750 4400 2    50   Input ~ 0
+Text GLabel 11000 3000 0    50   Input ~ 0
 SW20
-Text GLabel 11000 2900 0    50   Input ~ 0
-SW21
-Text GLabel 12400 2900 2    50   Input ~ 0
-SW22
-Text GLabel 8300 1850 0    50   Input ~ 0
-SW23
 Text GLabel 12400 3000 2    50   Input ~ 0
+SW21
+Text GLabel 11000 2900 0    50   Input ~ 0
+SW22
+Text GLabel 12400 2900 2    50   Input ~ 0
+SW23
+Text GLabel 11000 2800 0    50   Input ~ 0
 SW24
 Text GLabel 9750 4700 2    50   Input ~ 0
 SW25
-Text GLabel 8350 4600 0    50   Input ~ 0
-SW26
-Text GLabel 8350 4300 0    50   Input ~ 0
-SW27
-Text GLabel 9750 4300 2    50   Input ~ 0
-SW28
-Text GLabel 11000 3000 0    50   Input ~ 0
-SW29
-Text GLabel 9750 4600 2    50   Input ~ 0
-SW30
 Text GLabel 8350 4500 0    50   Input ~ 0
-SW31
-Text GLabel 8350 5000 0    50   Input ~ 0
-SW32
+SW27
+Text GLabel 9750 4500 2    50   Input ~ 0
+SW28
+Text GLabel 10150 3050 0    50   Input ~ 0
+SW29
+Text GLabel 8350 4300 0    50   Input ~ 0
+SW30
 Text GLabel 9750 5000 2    50   Input ~ 0
 SW33
-Text GLabel 8350 4900 0    50   Input ~ 0
-SW34
 Text GLabel 9750 4900 2    50   Input ~ 0
 SW35
-Text GLabel 8350 4800 0    50   Input ~ 0
-SW36
 Text GLabel 9750 4800 2    50   Input ~ 0
 SW37
-Text GLabel 8350 4700 0    50   Input ~ 0
-SW38
 Text GLabel 9700 2550 2    50   Input ~ 0
 ADDR
 Text GLabel 12400 4200 2    50   Input ~ 0
@@ -1305,86 +1269,14 @@ Wire Wire Line
 	3450 5950 3800 5950
 Wire Wire Line
 	4000 6250 3450 6250
-$Comp
-L Switch:SW_Push SW39
-U 1 1 5D0FD0CA
-P 6950 1400
-F 0 "SW39" H 6950 1685 50  0000 C CNN
-F 1 "SW_Push" H 6950 1594 50  0000 C CNN
-F 2 "MX_Socket:MXOnly-2U-Hotswap" H 6950 1600 50  0001 C CNN
-F 3 "~" H 6950 1600 50  0001 C CNN
-	1    6950 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW40
-U 1 1 5D0FD9ED
-P 6250 2400
-F 0 "SW40" H 6250 2685 50  0000 C CNN
-F 1 "SW_Push" H 6250 2594 50  0000 C CNN
-F 2 "MX_Socket:MXOnly-1.5U-Hotswap" H 6250 2600 50  0001 C CNN
-F 3 "~" H 6250 2600 50  0001 C CNN
-	1    6250 2400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW41
-U 1 1 5D10007D
-P 5500 3400
-F 0 "SW41" H 5500 3685 50  0000 C CNN
-F 1 "SW_Push" H 5500 3594 50  0000 C CNN
-F 2 "MX_Socket:MXOnly-2.25U-Hotswap" H 5500 3600 50  0001 C CNN
-F 3 "~" H 5500 3600 50  0001 C CNN
-	1    5500 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW42
-U 1 1 5D100920
-P 5500 4400
-F 0 "SW42" H 5500 4685 50  0000 C CNN
-F 1 "SW_Push" H 5500 4594 50  0000 C CNN
-F 2 "MX_Socket:MXOnly-2.75U-Hotswap" H 5500 4600 50  0001 C CNN
-F 3 "~" H 5500 4600 50  0001 C CNN
-	1    5500 4400
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Switch:SW_Push SW43
-U 1 1 5D101884
-P 1200 5450
-F 0 "SW43" H 1200 5735 50  0000 C CNN
-F 1 "SW_Push" H 1200 5644 50  0000 C CNN
-F 2 "MX_Socket:MXOnly-2U-Hotswap-ReversedStabilizers" H 1200 5650 50  0001 C CNN
-F 3 "~" H 1200 5650 50  0001 C CNN
-	1    1200 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 1000 6750 1400
 Wire Wire Line
 	7150 1400 7150 1000
-Connection ~ 7150 1400
 Wire Wire Line
 	6450 2000 6450 2400
-Connection ~ 6450 2400
-Wire Wire Line
-	6050 2400 6050 2000
-Wire Wire Line
-	5300 3000 5300 3400
 Wire Wire Line
 	5700 3400 5700 3000
-Connection ~ 5700 3400
-Wire Wire Line
-	5300 4000 5300 4400
 Wire Wire Line
 	5700 4400 5700 4000
-Connection ~ 5700 4400
-Wire Wire Line
-	1400 5000 1400 5450
-Connection ~ 1400 5450
-Wire Wire Line
-	1000 5450 1000 5000
 $Comp
 L Device:C C1
 U 1 1 5D148A79
@@ -1418,7 +1310,7 @@ F 3 "" H 6100 6200 50  0001 C CNN
 	1    6100 6200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8300 1150 0    50   Input ~ 0
+Text GLabel 9700 1150 2    50   Input ~ 0
 SW9
 $Comp
 L mcp23017_sp:MCP23017_SP U1
@@ -1447,7 +1339,6 @@ NoConn ~ 11000 3200
 NoConn ~ 11000 3300
 NoConn ~ 11000 3400
 NoConn ~ 11000 3500
-NoConn ~ 12400 3100
 NoConn ~ 12400 3200
 NoConn ~ 12400 3300
 NoConn ~ 12400 3400
@@ -1602,4 +1493,18 @@ F 3 "~" H 5650 6000 50  0001 C CNN
 $EndComp
 Text GLabel 5650 6000 3    50   Input ~ 0
 SCK
+NoConn ~ 8350 5000
+Text GLabel 8350 4700 0    50   Input ~ 0
+SW38
+Text GLabel 8350 4800 0    50   Input ~ 0
+SW36
+Text GLabel 8350 4900 0    50   Input ~ 0
+SW34
+Text GLabel 9750 4400 2    50   Input ~ 0
+SW31
+Text GLabel 9750 4600 2    50   Input ~ 0
+SW26
+Text GLabel 8350 4400 0    50   Input ~ 0
+SW29
+NoConn ~ 8350 4600
 $EndSCHEMATC

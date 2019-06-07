@@ -1,4 +1,4 @@
-15938892956863305
+15909245682293428
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49371,13 +49371,6 @@ MXOnly-ISO-HotSwap
 2
 2
 lib
-MX_CUTOFF_BackSpace
-
-
-0
-0
-0
-lib
 MX_CUTOUT
 
 
@@ -49392,28 +49385,7 @@ MX_CUTOUT_13.8mm
 0
 0
 lib
-MX_CUTOUT_ISOEnter
-
-
-0
-0
-0
-lib
 MX_CUTOUT_min_dril_1mm
-
-
-0
-0
-0
-lib
-MX_CUTOUT_Shift
-
-
-0
-0
-0
-lib
-MX_PCB_CUTOUT
 
 
 0
@@ -49441,13 +49413,6 @@ name-twitter
 0
 0
 lib
-Outline
-
-
-0
-0
-0
-lib
 Pad
 
 
@@ -49463,13 +49428,6 @@ Pad-B
 0
 lib
 panda-throughhole
-
-
-0
-0
-0
-lib
-PCB_Stabilizer_CUTOUT
 
 
 0
@@ -49503,13 +49461,6 @@ Selector
 0
 5
 5
-lib
-SlideSwitch_IS2235
-
-
-0
-6
-6
 lib
 SlideSwitch_SS-12D00
 
@@ -50350,90 +50301,6 @@ mounting hole 8.4mm m8
 0
 9
 1
-MX_Socket
-MXOnly-1.5U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-1.25U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-1.75U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-1U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-1U-Hotswap-Antishear
-
-
-0
-10
-2
-MX_Socket
-MXOnly-2.25U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-2.25U-Hotswap-ReversedStabilizers
-
-
-0
-2
-2
-MX_Socket
-MXOnly-2.75U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-2.75U-Hotswap-ReversedStabilizers
-
-
-0
-2
-2
-MX_Socket
-MXOnly-2U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-2U-Hotswap-ReversedStabilizers
-
-
-0
-2
-2
-MX_Socket
-MXOnly-ISO-HotSwap
-
-
-0
-2
-2
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads

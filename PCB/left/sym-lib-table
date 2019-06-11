@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name mcp23017_sp)(type Legacy)(uri /home/yu/Documents/keyboard/lib/mcp23017_sp.lib)(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name next-keyboard-cache)(type Legacy)(uri /home/yu/Documents/keyboard/panda-split/next-keyboard-cache.lib)(options "")(descr ""))
+  (lib (name mcp23017_sp)(type Legacy)(uri /home/yu/Documents/keyboard/lib/mcp23017_sp.lib)(options "")(descr ""))
+)

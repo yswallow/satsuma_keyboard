@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 23)
+    (drawings 35)
     (tracks 0)
     (zones 0)
     (modules 6)
@@ -218,6 +218,18 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
+  (gr_arc (start 206.625 114) (end 206.625 116.375) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 206.625 128.25) (end 209 128.25) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 209 137.75) (end 209 128.25) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 194.75 116.375) (end 206.625 116.375) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 194.75 125.875) (end 194.75 116.375) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 206.625 125.875) (end 194.75 125.875) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 206.625 57) (end 206.625 59.375) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_arc (start 206.625 71.25) (end 209 71.25) (angle -90) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 209 47.5) (end 209 57) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 194.75 68.875) (end 206.625 68.875) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 194.75 59.375) (end 194.75 68.875) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 206.625 59.375) (end 194.75 59.375) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 66.5 45.125) (end 40.375 45.125) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 59.375 137.75) (end 57 137.75) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 59.375 123.5) (end 59.375 121.125) (angle -90) (layer Edge.Cuts) (width 0.05))
@@ -260,7 +272,7 @@
   (gr_line (start 61.75 121.125) (end 61.75 102.125) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 61.75 121.125) (end 59.375 121.125) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 57 137.75) (end 57 123.5) (layer Edge.Cuts) (width 0.05))
-  (gr_line (start 209 47.5) (end 209 137.75) (layer Edge.Cuts) (width 0.05))
+  (gr_line (start 209 71.25) (end 209 114) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 66.5 45.125) (end 206.625 45.125) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 38 61.75) (end 38 47.5) (layer Edge.Cuts) (width 0.05))
 

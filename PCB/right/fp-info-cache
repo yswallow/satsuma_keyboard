@@ -1,4 +1,4 @@
-16174654448727463
+16159070031103586
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50358,6 +50358,20 @@ hoge
 0
 0
 lib
+ISP_Header_conthrough
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+lib
+ISP_Header_zigzag
+Through hole straight pin header, 2x03, 2.54mm pitch, double rows
+Through hole pin header THT 2x03 2.54mm double row
+0
+6
+6
+lib
 Jumper
 
 
@@ -51421,90 +51435,6 @@ mounting hole 8.4mm m8
 0
 9
 1
-MX_Socket
-MXOnly-1.5U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-1.25U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-1.75U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-1U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-1U-Hotswap-Antishear
-
-
-0
-10
-2
-MX_Socket
-MXOnly-2.25U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-2.25U-Hotswap-ReversedStabilizers
-
-
-0
-2
-2
-MX_Socket
-MXOnly-2.75U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-2.75U-Hotswap-ReversedStabilizers
-
-
-0
-2
-2
-MX_Socket
-MXOnly-2U-Hotswap
-
-
-0
-2
-2
-MX_Socket
-MXOnly-2U-Hotswap-ReversedStabilizers
-
-
-0
-2
-2
-MX_Socket
-MXOnly-ISO-HotSwap
-
-
-0
-2
-2
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads

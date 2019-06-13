@@ -112,7 +112,7 @@
   )
 
   (module lib:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5BC59CB0) (tstamp 5CF39A81)
-    (at 128.25 121.125)
+    (at 118.75 121.125)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)

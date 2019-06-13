@@ -1,4 +1,4 @@
-15931109993325428
+15909245682293428
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49252,13 +49252,6 @@ Circle
 0
 0
 lib
-Discord_invite
-
-
-0
-0
-0
-lib
 FatProMicro
 
 
@@ -49307,20 +49300,6 @@ hoge
 0
 0
 0
-lib
-ISP_Header_conthrough
-Through hole straight pin header, 2x03, 2.54mm pitch, double rows
-Through hole pin header THT 2x03 2.54mm double row
-0
-6
-6
-lib
-ISP_Header_zigzag
-Through hole straight pin header, 2x03, 2.54mm pitch, double rows
-Through hole pin header THT 2x03 2.54mm double row
-0
-6
-6
 lib
 Jumper
 
@@ -49392,13 +49371,6 @@ MXOnly-ISO-HotSwap
 2
 2
 lib
-MX_CUTOFF_BackSpace
-
-
-0
-0
-0
-lib
 MX_CUTOUT
 
 
@@ -49413,28 +49385,7 @@ MX_CUTOUT_13.8mm
 0
 0
 lib
-MX_CUTOUT_ISOEnter
-
-
-0
-0
-0
-lib
 MX_CUTOUT_min_dril_1mm
-
-
-0
-0
-0
-lib
-MX_CUTOUT_Shift
-
-
-0
-0
-0
-lib
-MX_PCB_CUTOUT
 
 
 0
@@ -49462,13 +49413,6 @@ name-twitter
 0
 0
 lib
-Outline
-
-
-0
-0
-0
-lib
 Pad
 
 
@@ -49490,23 +49434,9 @@ panda-throughhole
 0
 0
 lib
-PCB_Stabilizer_CUTOUT
-
-
-0
-0
-0
-lib
 PinHeader_1x04_P2.54mm_Vertical
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
 Through hole pin header THT 1x04 2.54mm single row
-0
-4
-4
-lib
-PJ-320D
-
-
 0
 4
 4
@@ -49525,26 +49455,12 @@ ProMicroISP-logo
 0
 0
 lib
-satsuma-orange
-
-
-0
-0
-0
-lib
 Selector
 
 
 0
 5
 5
-lib
-SlideSwitch_IS2235
-
-
-0
-6
-6
 lib
 SlideSwitch_SS-12D00
 
@@ -49595,26 +49511,12 @@ TRRS_SMD_SJ2-3574A-SMT
 4
 4
 lib
-TRRS_SMD_SJ2-3574A-SMT_ABCD
-
-
-0
-4
-4
-lib
 TVDT18
 
 
 0
 2
 2
-lib
-welcome_to_keyboard_swamp
-
-
-0
-0
-0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

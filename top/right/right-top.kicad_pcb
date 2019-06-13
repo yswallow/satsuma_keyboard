@@ -984,7 +984,7 @@
   )
 
   (gr_circle (center 76 121.125) (end 78 121.125) (layer Edge.Cuts) (width 0.05) (tstamp 5CFEA5BE))
-  (gr_circle (center 128.25 121.125) (end 130.25 121.125) (layer Edge.Cuts) (width 0.05) (tstamp 5CFEA5BC))
+  (gr_circle (center 118.75 121.125) (end 120.75 121.125) (layer Edge.Cuts) (width 0.05) (tstamp 5CFEA5BC))
   (gr_circle (center 190 121.125) (end 192 121.125) (layer Edge.Cuts) (width 0.05) (tstamp 5CFEA5BA))
   (gr_circle (center 190 64.125) (end 192 64.125) (layer Edge.Cuts) (width 0.05) (tstamp 5CFEA5B8))
   (gr_circle (center 123.5 64.125) (end 125.5 64.125) (layer Edge.Cuts) (width 0.05) (tstamp 5CFEA5B6))

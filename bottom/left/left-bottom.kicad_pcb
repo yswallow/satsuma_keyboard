@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 36)
+    (drawings 37)
     (tracks 0)
     (zones 0)
     (modules 9)
@@ -840,7 +840,7 @@
   )
 
   (module lib:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5BC59CB0) (tstamp 5CF8500E)
-    (at 104.5 133)
+    (at 123.475 133)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)
@@ -858,7 +858,7 @@
   )
 
   (module lib:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5BC59CB0) (tstamp 5CF84FFB)
-    (at 85.5 133)
+    (at 84.535 133)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)
@@ -875,6 +875,9 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
+  (gr_text "Satsuma JP SMD bottom plate rev.1" (at 179.175 147.17) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_arc (start 82.02 100.18) (end 82.02 98.91) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 82.02 90.02) (end 80.75 90.02) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 82.02 78.59) (end 82.02 77.32) (angle -90) (layer Edge.Cuts) (width 0.05))
@@ -906,7 +909,7 @@
     (arrow2b (pts (xy 229.235 57) (xy 229.821421 58.126504)))
   )
   (dimension 137.793759 (width 0.15) (layer Dwgs.User)
-    (gr_text "137.794 mm" (at 149.576964 40.655005 0.02079041212) (layer Dwgs.User) (tstamp 5D0287B6)
+    (gr_text "137.794 mm" (at 149.576964 40.655005 0.02079041212) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 80.70625 112.775) (xy 80.680348 41.393584)))

@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 35)
+    (drawings 36)
     (tracks 0)
     (zones 0)
     (modules 6)
@@ -166,7 +166,7 @@
   )
 
   (module lib:MountingHole_2.2mm_M2 locked (layer F.Cu) (tedit 5BC59CB0) (tstamp 5CF39A6E)
-    (at 190 121.125)
+    (at 185.25 121.125)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr virtual)
@@ -219,6 +219,9 @@
     (pad 1 np_thru_hole circle (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask))
   )
 
+  (gr_text "Satsuma JP SMD bottom plate rev.1" (at 184.235 136.565) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_arc (start 207.73 115.61) (end 207.73 116.88) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 207.73 126.405) (end 209 126.405) (angle -90) (layer Edge.Cuts) (width 0.05))
   (gr_arc (start 207.73 69.255) (end 209 69.255) (angle -90) (layer Edge.Cuts) (width 0.05))

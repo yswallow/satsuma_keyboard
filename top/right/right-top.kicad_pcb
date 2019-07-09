@@ -87,7 +87,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../gerber-test/pcb/right/"))
+      (outputdirectory "../../tmp/top-right/"))
   )
 
   (net 0 "")
